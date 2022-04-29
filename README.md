@@ -31,6 +31,7 @@ git config --global --edit
     
 ```sh
 npm init -y
+npm install -D git-commit-msg-linter
 ```
 
 #

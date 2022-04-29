@@ -30,8 +30,11 @@ git config --global --edit
 # Criando o projeto e configurando o projeto
     
 ```sh
-npm init -y
-npm install -D git-commit-msg-linter
+npm init -y # criando o projeto
+npm install -D git-commit-msg-linter # adicionando o linter para commits semanticos
+npm install -D typescript # adicionando o typescript, um poderoso superset do javascript
+npm install -D @types/node # adicionando o @types/node para a tipagem do node para o typescript
+
 ```
 
 #

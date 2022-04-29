@@ -1,0 +1,19 @@
+{
+    "CompilerOptions": {
+        "outDir": "./dist", // arquivos javascript gerados
+        "target": "es2019", // gerar o javascript com o padrão es2019 
+        "module": "commonjs", // o javascript vai gerar com a versao que os navegadores suportam
+        "esModuleInterop": true, // suporte ao import/export
+        "allowJs": true, // suporte aos arquivos javascript (.js)
+        // "moduleResolution": "node",
+        // "sourceMap": true,
+        // "declaration": true,
+        // "emitDecoratorMetadata": true,
+        // "experimentalDecorators": true,
+        // "removeComments": false,
+        // "noImplicitAny": false,
+        // "noLib": false,
+        // "preserveConstEnums": true,
+        // "suppressImplicitAnyIndexErrors": true
+    },
+}

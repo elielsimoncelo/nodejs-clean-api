@@ -53,3 +53,21 @@ npm install -D \
   @typescript-eslint/eslint-plugin@^4.0.1 \
   eslint-config-standard-with-typescript@latest
 ```
+
+# Vamos utilizar o husky e o lint-staged para o gerenciamento de commits
+
+```sh
+npm install -D husky # gerenciador de hooks que executam comandos durante o processo de commits
+npm install -D lint-staged # nos ajuda a executar comandos somente em arquivos da staged area do proximo commit
+```
+
+# Configurando o husky e o lint-staged para executar no pre-commit
+
+```sh
+  
+```sh
+npm set-script prepare "husky install"
+npm run prepare
+npx husky add .husky/pre-commit "npx lint-staged"
+```
+

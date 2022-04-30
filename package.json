@@ -4,6 +4,7 @@
   "description": "Projeto para criação de API's RESTful com NodeJS e MongoDB utilizando Clean Architecture.",
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,6 +19,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "git-commit-msg-linter": "^4.1.2",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
     "typescript": "^4.6.4"
   }
 }

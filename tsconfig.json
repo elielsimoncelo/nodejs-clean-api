@@ -5,15 +5,16 @@
         "module": "commonjs", // o javascript vai gerar com a versao que os navegadores suportam
         "esModuleInterop": true, // suporte ao import/export
         "allowJs": true, // suporte aos arquivos javascript (.js)
+        // "strictNullChecks": true, // não permite que não seja definido um valor para uma variavel
+        // "noImplicitAny": true, // não permite que não seja definido um valor para uma variavel
         // "moduleResolution": "node",
         // "sourceMap": true,
         // "declaration": true,
         // "emitDecoratorMetadata": true,
         // "experimentalDecorators": true,
         // "removeComments": false,
-        // "noImplicitAny": false,
         // "noLib": false,
         // "preserveConstEnums": true,
         // "suppressImplicitAnyIndexErrors": true
-    },
+    }
 }

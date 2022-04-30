@@ -15,6 +15,6 @@
         // "removeComments": false,
         // "noLib": false,
         // "preserveConstEnums": true,
-        // "suppressImplicitAnyIndexErrors": true
+        // "suppressImplicitAnyIndexErrors": true,
     }
 }

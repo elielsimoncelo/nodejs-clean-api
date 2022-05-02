@@ -14,6 +14,7 @@ curl -o .gitignore "https://www.toptal.com/developers/gitignore/api/node,macos,w
 git config --global --list # Lista todos os atalhos globais
 git config --global core.editor 'code --wait' # Editor padrão
 git config --global alias.s '!git status -s' # Atalho para o status
+git config --global alias.cm '!git commit -m' # Atalho para o commit
 git config --global alias.c '!git add --all && git commit -m' # Atalho para o commit
 git config --global alias.ca '!git add --all && git commit --amend' # Atalho para o commit com amend
 git config --global alias.a '!git add --all' # Atalho para o add

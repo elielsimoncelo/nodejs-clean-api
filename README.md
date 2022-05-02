@@ -61,6 +61,12 @@ npm install -D husky # gerenciador de hooks que executam comandos durante o proc
 npm install -D lint-staged # nos ajuda a executar comandos somente em arquivos da staged area do proximo commit
 ```
 
+### Configurando o husky para trabalhar com o nosso linter de commits
+
+```sh
+npx husky add .husky/commit-msg ".git/hooks/commit-msg \$1"
+```
+
 #### Configurando o husky e o lint-staged para executar no pre-commit
 
 ```sh
